@@ -1,0 +1,1 @@
+az deployment sub create --name "rg_deployment_1" --location eastus --template-file "rg.json"
