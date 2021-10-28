@@ -5,12 +5,13 @@
     "functions": [],
     "variables": {},
     "resources": [{
-        "name": "resourceGroupfromarm",
+        "name": "resourceGroupByArm",
         "type": "Microsoft.Resources/resourceGroups",
         "apiVersion": "2021-04-01",
         "location": "eastus",
         "dependsOn": [],
-        "tags": {}
+        // udpate code with tags for the resource group
+        "tags": {"environment":"production", "lifecycle":"integration", "author" : "arm"} 
     }],
     "outputs": {}
 }
